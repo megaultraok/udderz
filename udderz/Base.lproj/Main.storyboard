@@ -16,9 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iu-1" translatesAutoresizingMaskIntoConstraints="NO" id="x2B-rE-sNM">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iu-1" translatesAutoresizingMaskIntoConstraints="NO" id="x2B-rE-sNM">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="udderz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvR-ed-O5M">
                                 <rect key="frame" x="146" y="138" width="122" height="49"/>
@@ -30,6 +29,14 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="x2B-rE-sNM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0mk-ss-imu"/>
+                            <constraint firstItem="x2B-rE-sNM" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-5" id="77h-N5-ZdX"/>
+                            <constraint firstAttribute="bottom" secondItem="x2B-rE-sNM" secondAttribute="bottom" id="EHR-Gp-Qj7"/>
+                            <constraint firstItem="x2B-rE-sNM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="UPW-MH-JIb"/>
+                            <constraint firstItem="x2B-rE-sNM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="d6L-n2-kcW"/>
+                            <constraint firstItem="x2B-rE-sNM" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="tuk-lE-o2C"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
