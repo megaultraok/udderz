@@ -22,20 +22,41 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="udderz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvR-ed-O5M">
                                 <rect key="frame" x="146" y="138" width="122" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.34901960780000002" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="41"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please enter address here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X99-sq-VJC">
+                                <rect key="frame" x="108" y="311" width="198" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.34901960780000002" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EyT-9A-n7n">
+                                <rect key="frame" x="159" y="371" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0b-4h-TkH">
+                                <rect key="frame" x="102" y="621" width="211" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.63342722240000005" blue="0.55162164729999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Click here to get milk delivered">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="x2B-rE-sNM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0mk-ss-imu"/>
-                            <constraint firstItem="x2B-rE-sNM" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-5" id="77h-N5-ZdX"/>
-                            <constraint firstAttribute="bottom" secondItem="x2B-rE-sNM" secondAttribute="bottom" id="EHR-Gp-Qj7"/>
-                            <constraint firstItem="x2B-rE-sNM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="UPW-MH-JIb"/>
-                            <constraint firstItem="x2B-rE-sNM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="d6L-n2-kcW"/>
-                            <constraint firstItem="x2B-rE-sNM" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="tuk-lE-o2C"/>
+                            <constraint firstItem="x2B-rE-sNM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="532-Oh-JYx"/>
+                            <constraint firstAttribute="bottom" secondItem="x2B-rE-sNM" secondAttribute="bottom" id="aBi-zV-Fwq"/>
+                            <constraint firstItem="x2B-rE-sNM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xSL-qy-Kb0"/>
+                            <constraint firstItem="x2B-rE-sNM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="z8E-0k-jEq"/>
                         </constraints>
                     </view>
                 </viewController>
