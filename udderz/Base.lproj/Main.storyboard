@@ -74,6 +74,9 @@
                                                 <state key="normal" title="Click here">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rHo-uA-8yb"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
